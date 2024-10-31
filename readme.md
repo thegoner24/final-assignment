@@ -50,22 +50,22 @@ This is a simple and responsive company profile website built with HTML and CSS.
 
 ### 1. **Hero Section**
    - Choosing to use hero section for make a background image with a welcome message and a call-to-action button.
-      ![hero section](../assets/img/domentation/Screenshot%202024-10-25%20001520.png)
+      ![hero section](/img/domentation/Screenshot%202024-10-25%20001520.png)
 ### 2. **Services**
    - Highlights the main services, such as Web Design, Photography, and Videography.
-      ![services](../assets/img/domentation/Screenshot%202024-10-25%20001931.png)
+      ![services](/img/domentation/Screenshot%202024-10-25%20001931.png)
 
 ### 3. **Portfolio**
    - Displays images from past projects with descriptions.
-      ![portfolio](../assets/img/domentation/Screenshot%202024-10-25%20001951.png)
+      ![portfolio](/img/domentation/Screenshot%202024-10-25%20001951.png)
 
 ### 4. **Team**
    - Introduces the company's key team members with images and titles.
-      ![team](../assets/img/domentation/Screenshot%202024-10-25%20002006.png)
+      ![team](/img/domentation/Screenshot%202024-10-25%20002006.png)
 
 ### 5. **Contact Form**
    - A form where users can enter their details and select a service to inquire about.
-      ![contact-form](../assets/img/domentation/Screenshot%202024-10-25%20002204.png)
+      ![contact-form](/img/domentation/Screenshot%202024-10-25%20002204.png)
 
 ## Code 
 
