@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company Profile - Final Checkpoint</title>
+    <link rel="stylesheet" href="style/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Animation for continuous scroll */
+        @keyframes scroll {
+            0% {
+                transform: translateX(0);
+            }
+            100% {
+                transform: translateX(-100%);
+            }
+        }
+        .animate-scroll {
+            animation: scroll 10s infinite alternate linear;
+            display: flex;
+            white-space: nowrap;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="img/RevoU Youtube Thumbnail (1).png" width="150" height="70" alt="RevoU" align="left">
+            </div>
+            <ul align="right" class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#about-us">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#team">Team</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Welcome to Enclosure</h1>
+            <p>We offer high-quality services to help your business grow.</p>
+            <a href="#" class="btn">Learn More</a>
+        </div>
+    </section>
+
+    <section class="about-section">
+        <div class="about-content">
+            <div class="about-image">
+                <img src="img/forest.jpg" alt="About Image">
+            </div>
+            <div class="about-text">
+                <h2>About Us</h2>
+                <p>At Enclosure Agency, we believe in the power of digital transformation to drive business success. Our philosophy is built on the principles of innovation, integrity, and collaboration. We are committed to delivering tailored digital marketing solutions that not only meet but exceed our clients' expectations</p>
+            </div>
+        </div>
+        <div class="overflow-hidden">
+            <div class="flex gap-8 animate-scroll">
+                <img src="img/brands/1.svg" alt="Logo 1" class="h-16 grayscale hover:grayscale-0 transition duration-300">
+                <img src="img/brands/2.svg" alt="Logo 2" class="h-16 grayscale hover:grayscale-0 transition duration-300">
+                <img src="img/brands/3.svg" alt="Logo 3" class="h-16 grayscale hover:grayscale-0 transition duration-300">
+                <img src="img/brands/4.svg" alt="Logo 4" class="h-16 grayscale hover:grayscale-0 transition duration-300">
+                <img src="img/brands/5.svg" alt="Logo 5" class="h-16 grayscale hover:grayscale-0 transition duration-300">
+                <img src="img/brands/6.svg" alt="Logo 1" class="h-16 grayscale hover:grayscale-0 transition duration-300">
+                <img src="img/brands/7.svg" alt="Logo 2" class="h-16 grayscale hover:grayscale-0 transition duration-300">
+                <img src="img/brands/8.svg" alt="Logo 3" class="h-16 grayscale hover:grayscale-0 transition duration-300">
+                <img src="img/brands/9.svg" alt="Logo 4" class="h-16 grayscale hover:grayscale-0 transition duration-300">
+                <img src="img/brands/10.svg" alt="Logo 5" class="h-16 grayscale hover:grayscale-0 transition duration-300">
+            </div>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <h2>Our Services</h2>
+        <div class="service-cards">
+            <div class="service">
+                <h3>Web Design</h3>
+                <p>Designing responsive, user-friendly websites that showcase your brand and drive engagement.</p>
+            </div>
+            <div class="service">
+                <h3>Photography</h3>
+                <p>Capturing high-quality, stunning images that tell your brand's story and create a lasting visual impact.</p>
+            </div>
+            <div class="service">
+                <h3>Videography</h3>
+                <p>Producing compelling videos that engage your audience, convey your message, and enhance your brand’s presence.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <div class="parent">
+        <div class="div1"> </div>
+        <div class="div2"> </div>
+        <div class="div3"> </div>
+        <div class="div4"> </div>
+    </div>
+
+<section class="portfolio" id="portfolio">
+    <h2>Our Portfolio</h2>
+    <div class="portfolio-grid">
+
+        <div class="portfolio-item">
+            <img src="https://rangefinderonline.com/wp-content/uploads/2021/08/B23A9251-Edit.jpg" alt="Project 1">
+            <h3>Project 1</h3>
+            <p>Portrait photo of human and nature.</p>
+        </div>
+
+
+        <div class="portfolio-item">
+            <img src="https://amateurphotographer.com/wp-content/uploads/sites/7/2023/06/Nyarai-Urbanek-on-her-Bradford-Allotment-BD4-from-the-series-Hardy-and-Free-cCarolyn-Mendelsohn-23.jpg" alt="Project 2">
+            <h3>Project 2</h3>
+            <p>Portrait photo of human and nature.</p>
+        </div>
+
+
+        <div class="portfolio-item">
+            <img src="https://www.wherewonderwaits.com/wp-content/uploads/2021/06/self-portrait-forest-scaled.jpg" alt="Project 3">
+            <h3>Project 3</h3>
+            <p>Portrait photo of human and nature.</p>
+        </div>
+
+        <div class="portfolio-item">
+            <img src="https://i.pinimg.com/736x/5e/72/97/5e72973fa3a60724d09b7eb09b33dcbb.jpg" alt="Project 4">
+            <h3>Project 4</h3>
+            <p>Portrait photo of human and nature.</p>
+        </div>
+
+
+
+    </div>
+</section>
+
+
+    <section class="team" id="team">
+        <h2>Meet Our Team</h2>
+        <div class="team-members">
+            <div class="member">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPAt0-89uHahZdY-wlqM18MwUylv9_CT4lJA&s" alt="Team Member 1">
+                <h3>John Shmelter</h3>
+                <p>CEO</p>
+            </div>
+            <div class="member">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwXRsEwpFFX0OKKI2dQwdnS3hsLq_2Bogf2g&s" alt="Team Member 2">
+                <h3>Joana</h3>
+                <p>CTO</p>
+            </div>
+            <div class="member">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyM0uP22Djo1PvFkenz9kuG_-f-8PuD2GItw&s" alt="Team Member 3">
+                <h3>Suteja</h3>
+                <p>Head of Marketing</p>
+            </div>
+        </div>
+    </section>
+    
+
+
+
+<section class="contact-us" id="contact">
+    <h2>Contact Us</h2>
+    <form action="#" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+
+        <div class="user-selection">
+            <h3>Choose a User</h3>
+            <div class="radio-group">
+                <input type="radio" id="personal" name="user" value="personal" required>
+                <label for="personal">Personal</label>
+                
+                <input type="radio" id="company" name="user" value="company" required>
+                <label for="company">Company</label>
+            </div>
+        </div>
+        
+
+        <div class="service-selection">
+            <h3>Choose a Service</h3>
+            <select name="service" required>
+                <option value="" disabled selected>Select a service</option>
+                <option value="Service 1">Web Devlopment</option>
+                <option value="Service 2">Photography</option>
+                <option value="Service 3">Videography</option>
+            </select>
+        </div>
+
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+</section>
+
+</main>
+
+
+    <footer>
+        <p>© 2024 Guntur-RevoU. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
