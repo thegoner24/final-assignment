@@ -372,16 +372,6 @@ nav {
     margin-bottom: 10px;
 }
 
-.radio-group {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px
-}
-
-.radio-group input[type="radio"] {
-    margin-right: 5px;
-}
 
 .service-selection {
     text-align: center;
@@ -488,7 +478,7 @@ footer {
     }
 
     .member img {
-        width: 60%; 
+        width: 29%; 
     }
 
     .member h3 {
@@ -519,7 +509,7 @@ footer {
     }
 
     .member img {
-        width: 50%; 
+        width: 40%; 
     }
 }
 
