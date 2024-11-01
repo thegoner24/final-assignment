@@ -15,8 +15,9 @@
     <link rel="stylesheet" href="style/style.css">
 
     <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- animation scroll effect -->
     <style>
-        /* Animation for continuous scroll */
         @keyframes scroll {
             0% {
                 transform: translateX(0);
@@ -47,6 +48,11 @@
                 <li><a href="#team">Team</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
         </nav>
     </header>
 
@@ -71,16 +77,16 @@
         </div>
         <div class="overflow-hidden">
             <div class="flex gap-8 animate-scroll">
-                <img src="img/brands/1.svg" alt="Logo 1" class="h-16 grayscale hover:grayscale-0 transition duration-300">
-                <img src="img/brands/2.svg" alt="Logo 2" class="h-16 grayscale hover:grayscale-0 transition duration-300">
-                <img src="img/brands/3.svg" alt="Logo 3" class="h-16 grayscale hover:grayscale-0 transition duration-300">
-                <img src="img/brands/4.svg" alt="Logo 4" class="h-16 grayscale hover:grayscale-0 transition duration-300">
-                <img src="img/brands/5.svg" alt="Logo 5" class="h-16 grayscale hover:grayscale-0 transition duration-300">
-                <img src="img/brands/6.svg" alt="Logo 1" class="h-16 grayscale hover:grayscale-0 transition duration-300">
-                <img src="img/brands/7.svg" alt="Logo 2" class="h-16 grayscale hover:grayscale-0 transition duration-300">
-                <img src="img/brands/8.svg" alt="Logo 3" class="h-16 grayscale hover:grayscale-0 transition duration-300">
-                <img src="img/brands/9.svg" alt="Logo 4" class="h-16 grayscale hover:grayscale-0 transition duration-300">
-                <img src="img/brands/10.svg" alt="Logo 5" class="h-16 grayscale hover:grayscale-0 transition duration-300">
+                <img src="img/brands/1.svg" alt="Logo 1" class="h-16 transition duration-300 grayscale hover:grayscale-0">
+                <img src="img/brands/2.svg" alt="Logo 2" class="h-16 transition duration-300 grayscale hover:grayscale-0">
+                <img src="img/brands/3.svg" alt="Logo 3" class="h-16 transition duration-300 grayscale hover:grayscale-0">
+                <img src="img/brands/4.svg" alt="Logo 4" class="h-16 transition duration-300 grayscale hover:grayscale-0">
+                <img src="img/brands/5.svg" alt="Logo 5" class="h-16 transition duration-300 grayscale hover:grayscale-0">
+                <img src="img/brands/6.svg" alt="Logo 1" class="h-16 transition duration-300 grayscale hover:grayscale-0">
+                <img src="img/brands/7.svg" alt="Logo 2" class="h-16 transition duration-300 grayscale hover:grayscale-0">
+                <img src="img/brands/8.svg" alt="Logo 3" class="h-16 transition duration-300 grayscale hover:grayscale-0">
+                <img src="img/brands/9.svg" alt="Logo 4" class="h-16 transition duration-300 grayscale hover:grayscale-0">
+                <img src="img/brands/10.svg" alt="Logo 5" class="h-16 transition duration-300 grayscale hover:grayscale-0">
             </div>
         </div>
     </section>
@@ -204,13 +210,37 @@
     </form>
 </section>
 
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+<script>
+    const mybutton = document.getElementById("myBtn");
+    window.onscroll = function() {scrollFunction()};
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+        } else {
+            mybutton.style.display = "none";
+        }
+    }
+    function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+</script>
 </main>
 
 
     <footer>
         <p>© 2024 Guntur-RevoU. All rights reserved.</p>
     </footer>
+    <script>
+        const hamburger = document.querySelector('.hamburger');
+        const navLinks = document.querySelector('.nav-links');
 
+        hamburger.addEventListener('click', () => {
+            navLinks.classList.toggle('open');
+        });
+    </script>
 </body>
 
 </html>
