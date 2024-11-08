@@ -3,17 +3,24 @@
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: auto;
+    font-family: "Geist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
     line-height: 1.6;
+}
+
+.text-shadow {
+    text-shadow: 2px 2px 4px rgb(17, 18, 31);
 }
 
 header {
     position: sticky;
     top: 0px;
-    z-index: 1px;
+    z-index: 5;
 }
 
 nav {
@@ -104,7 +111,7 @@ nav {
 
 .hero {
     background: url('https://wallpapers.com/images/hd/dark-nature-s3in5w7pgukadq51.jpg') no-repeat center center/cover;
-    height: 500px;
+    height: 800px;
     display: flex;
     justify-content: center;
     align-items: center;
